@@ -1,105 +1,82 @@
 read_cv_task:
   description: >
-    Extract relevant information from all CVs. Focus on skills, experience,
-    education, and key achievements.
-    Ensure to capture each candidate's professional summary, technical skills,
-    work history, and educational background.
+    FIRST STAGE: Initial CV Analysis
+    Extract and categorize basic information from all CVs to enable efficient matching.
+    Focus on:
+    1. Technical Skills (list all technical skills mentioned)
+    2. Role Experience (list all roles held)
+    3. Key Achievements (list major accomplishments)
+    4. Years of Experience (in each role)
+    5. Education and Certifications
 
     {cv_files}
   expected_output: >
-    A structured summary of all CVs, including for each:
-    - Professional Summary
-    - Technical Skills
-    - Work History
-    - Education
-    - Key Achievements
+    A structured summary of all CVs in this format:
+    
+    CV: [Filename]
+    Technical Skills: [List of all technical skills]
+    Role Experience: [List of roles with years]
+    Key Achievements: [List of major accomplishments]
+    Education: [List of degrees and certifications]
+    
+    [Repeat for each CV]
+
+filter_candidates_task:
+  description: >
+    SECOND STAGE: Initial Filtering
+    For each job role, identify potential candidates based on basic criteria.
+    Use the following quick filters:
+    
+    1. Software Engineer:
+       - Has coding experience
+       - Knows relevant programming languages
+    
+    2. Software Architect:
+       - Has system design experience
+       - Has technical leadership experience
+    
+    3. Project Manager:
+       - Has project management experience
+       - Has team leadership experience
+    
+    4. DevOps Engineer:
+       - Has infrastructure experience
+       - Has automation experience
+    
+    5. QA Engineer:
+       - Has testing experience
+       - Has quality assurance experience
+    
+    6. Business Analyst:
+       - Has requirements analysis experience
+       - Has stakeholder management experience
+    
+    For each role, list up to 3 potential candidates that meet the basic criteria.
+    Include a brief explanation of why they might be suitable.
+
+    Jobs CSV file: {path_to_jobs_csv}
+    {cv_files}
+  expected_output: >
+    For each job role, list up to 3 potential candidates:
+    
+    Job: [Job Title]
+    Potential Candidates:
+    1. [Candidate Name]
+       - Basic Match: [Brief explanation]
+    2. [Candidate Name]
+       - Basic Match: [Brief explanation]
+    3. [Candidate Name]
+       - Basic Match: [Brief explanation]
+    
+    [Repeat for each job role]
 
 match_cv_task:
   description: >
-    IMPORTANT: You must analyze ALL jobs from the jobs.csv file and for EACH job,
-    identify the single most suitable candidate from ALL available CVs.
+    FINAL STAGE: Detailed Matching
+    For each job role, perform detailed analysis of the pre-filtered candidates
+    to identify the single most suitable candidate.
     
-    The output MUST be organized by job, with each job showing its top candidate
-    in order of suitability. You must include ALL jobs from the jobs.csv file.
-    
-    REQUIRED JOBS TO PROCESS:
-    1. Software Engineer
-    2. Software Architect
-    3. Project Manager
-    4. DevOps Engineer
-    5. QA Engineer
-    6. Business Analyst
-    
-    You must process and show results for ALL of these jobs, no exceptions.
-    
-    CRITICAL EVALUATION RULES:
-    1. Prioritize specific, concrete experience over generic descriptions
-    2. Penalize candidates who use vague buzzwords without concrete examples
-    3. Require direct, relevant experience for each role
-    4. Consider the depth and recency of relevant experience
-    5. Look for role-specific achievements and metrics
-    6. DO NOT recommend candidates for roles where they lack direct, relevant experience
-    7. Being good at one role does NOT automatically qualify for other roles
-    8. Each role has distinct responsibilities and required experience - do not mix them
-    9. If a candidate's experience is clearly in one role, do not recommend them for other roles
-    10. Having some overlapping skills (like Agile) does not qualify for other roles
-    
-    SCORING SYSTEM:
-    Base Score (0-100):
-    - Direct role experience: +50 points
-    - Related role experience: +30 points
-    - Generic skills without role context: -10 points
-    - Vague descriptions without specifics: -5 points
-    
-    Role-Specific Bonuses:
-    - Strong technical skills for technical roles: +20 points
-    - Leadership experience for management roles: +20 points
-    - Domain-specific achievements: +15 points
-    - Recent relevant experience: +10 points
-    
-    Penalties:
-    - No direct role experience: -30 points
-    - Generic descriptions only: -20 points
-    - Outdated experience: -10 points
-    
-    ROLE BOUNDARIES:
-    - Business Analysts:
-      * FOCUS: Requirements gathering, process analysis, stakeholder management
-      * NOT: Testing, development, or QA
-      * PREFERRED: Direct business analysis experience
-      * CAN BE: Related roles with strong analysis skills
-    
-    - QA Engineers:
-      * FOCUS: Testing, quality assurance, test automation
-      * NOT: Business analysis or development
-      * PREFERRED: Direct QA/testing experience
-      * CAN BE: Related roles with strong testing skills
-    
-    - Software Engineers:
-      * FOCUS: Development, coding, implementation
-      * NOT: Testing, analysis, or architecture
-      * PREFERRED: Direct software development experience
-      * CAN BE: Related technical roles with coding experience
-    
-    - Software Architects:
-      * FOCUS: System design, architecture, technical leadership
-      * NOT: Development, testing, or analysis
-      * PREFERRED: Direct architecture experience
-      * CAN BE: Senior technical roles with design experience
-    
-    - Project Managers:
-      * FOCUS: Project management, team leadership, delivery
-      * NOT: Development, testing, or analysis
-      * PREFERRED: Direct project management experience
-      * CAN BE: Related roles with strong leadership experience
-    
-    - DevOps Engineers:
-      * FOCUS: CI/CD, automation, infrastructure
-      * NOT: Development, testing, or analysis
-      * PREFERRED: Direct DevOps experience
-      * CAN BE: Related technical roles with automation experience
-    
-    For each job-candidate match, evaluate based on these specific criteria:
+    Use the following detailed criteria:
 
     For Software Engineer roles:
     - Hands-on coding experience and proficiency
@@ -109,7 +86,7 @@ match_cv_task:
     - Focus on technical execution and problem-solving
     - PREFERRED: Direct software development experience
     - CAN BE: Related technical roles with coding experience
-    - AVOID: Non-technical roles without coding experience
+    - CONSIDER: Technical roles with problem-solving skills
 
     For Software Architect roles:
     - System design and architecture experience
@@ -119,7 +96,7 @@ match_cv_task:
     - Focus on system-level thinking and design patterns
     - PREFERRED: Direct architecture experience
     - CAN BE: Senior technical roles with design experience
-    - AVOID: Non-technical roles without design experience
+    - CONSIDER: Technical roles with system thinking
 
     For QA Engineer roles:
     - Test planning and execution experience
@@ -129,7 +106,7 @@ match_cv_task:
     - Understanding of software development lifecycle
     - PREFERRED: Direct QA/testing experience
     - CAN BE: Related roles with strong testing skills
-    - AVOID: Non-technical roles without testing experience
+    - CONSIDER: Technical roles with attention to detail
 
     For DevOps Engineer roles:
     - CI/CD pipeline experience
@@ -139,7 +116,7 @@ match_cv_task:
     - Cloud platform expertise
     - PREFERRED: Direct DevOps experience
     - CAN BE: Related technical roles with automation experience
-    - AVOID: Non-technical roles without infrastructure experience
+    - CONSIDER: Technical roles with system administration experience
 
     For Project Manager roles:
     - Project management methodology experience
@@ -149,7 +126,7 @@ match_cv_task:
     - Risk management experience
     - PREFERRED: Direct project management experience
     - CAN BE: Related roles with strong leadership experience
-    - AVOID: Roles without leadership or management experience
+    - CONSIDER: Technical roles with team coordination experience
 
     For Business Analyst roles:
     - Requirements gathering and analysis
@@ -159,7 +136,7 @@ match_cv_task:
     - Business process understanding
     - PREFERRED: Direct business analysis experience
     - CAN BE: Related roles with strong analysis skills
-    - AVOID: Technical roles without analysis experience
+    - CONSIDER: Technical roles with strong communication skills
 
     Jobs CSV file: {path_to_jobs_csv}
     {cv_files}
@@ -176,6 +153,7 @@ match_cv_task:
     - Direct Experience: [Yes/No - Does candidate have direct experience in this role?]
     - Role Alignment: [Explain why this candidate's experience aligns with this specific role]
     - Scoring Justification: [Explain the scoring based on the scoring system]
+    - Growth Potential: [Evaluate candidate's potential to grow in this role]
     
     [REPEAT THIS FORMAT FOR EVERY JOB IN THE JOBS.CSV FILE]
     
@@ -184,15 +162,11 @@ match_cv_task:
     - For each job, show exactly one candidate, the most suitable one
     - The output must be organized by job, not by candidate
     - Do not skip any jobs from the jobs.csv file
-    - Pay special attention to role-specific requirements when ranking candidates
-    - Be strict about requiring direct, relevant experience for each role
-    - Penalize candidates with generic or vague experience descriptions
-    - DO NOT recommend candidates for roles where they lack direct experience
-    - If no suitable candidates exist, indicate this in the output
-    - Respect role boundaries - do not cross-recommend between different roles
+    - Consider both direct experience and transferable skills
+    - Look for candidates with potential to grow into the role
+    - Consider complementary skills that could be valuable
     - Apply the scoring system to all candidates
-    - Consider both direct experience and related experience
-    - Look for transferable skills while maintaining role boundaries
+    - Consider both technical and soft skills
     - You must process and show results for ALL jobs in the jobs.csv file
     - You must show results for ALL of these jobs: Software Engineer, Software Architect, Project Manager, DevOps Engineer, QA Engineer, Business Analyst
   output_file: output/decision.md

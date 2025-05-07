@@ -1,0 +1,42 @@
+**Josephine Skinner**
+055 Rosemary trafficway, West Garethmouth, E0 8ZD
+Email: josephine.skinner2@email.com | Phone: 0808 1570977
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 10 years of experience in full-stack development using CI/CD, .NET, and Angular.
+
+**Skills**
+.NET | Vue.js | Problem Solving
+MongoDB | Docker | React
+JavaScript | Java | Angular
+Microservices | Unit Testing | Kubernetes
+
+**Experience**
+
+**Software Engineer** | Davies Group
+*Dec 2021 - Present*
+- Embrace innovative e-services
+- Unleash viral metrics
+- Enable best-of-breed supply-chains
+- Brand 24/365 e-business
+
+**Software Engineer** | Price LLC
+*Apr 2017 - Nov 2021*
+- Revolutionize b2c content. (increased user engagement by 15%)
+- Envisioneer next-generation web-readiness
+- Optimize collaborative mindshare. (increased user engagement by 37%)
+- Deploy out-of-the-box relationships
+
+**Senior Software Engineer** | Summers PLC
+*Feb 2015 - Feb 2017*
+- Optimize plug-and-play convergence
+- Unleash bleeding-edge info-mediaries. (completed project 31 weeks ahead of schedule)
+- Utilize cross-media infrastructures
+- Visualize compelling info-mediaries
+
+**Education**
+
+**MSc in Economics**
+Harris, Rahman and Davies University
+*2018 - 2021*

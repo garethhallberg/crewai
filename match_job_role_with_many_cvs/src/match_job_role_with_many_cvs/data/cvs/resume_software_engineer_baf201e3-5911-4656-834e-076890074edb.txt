@@ -1,0 +1,40 @@
+**Mohammad Buckley**
+0 Brookes circle, South Jonathanfort, B1K 3LR
+Email: mohammad.buckley9@email.com | Phone: +44191 4960929
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 3 years of experience in full-stack development using Unit Testing, C#, and AWS.
+
+**Skills**
+Teamwork | .NET | TypeScript
+REST APIs | GCP | Java
+Vue.js | Python | AWS
+Unit Testing | JavaScript | Angular
+Node.js | React
+
+**Experience**
+
+**Junior Software Engineer** | Stephenson-Jones
+*Oct 2023 - Present*
+- Benchmark distributed bandwidth
+- Drive web-enabled e-tailers
+- Mesh distributed e-tailers
+
+**Software Engineer** | Fletcher, Roberts and Campbell
+*May 2022 - Oct 2023*
+- Re-intermediate cross-media experiences
+- Transform seamless e-commerce. (reduced costs by 27%)
+- Incentivize revolutionary users
+- Matrix impactful partnerships. (improved performance by 11%)
+- Maximize cross-platform applications
+
+**Education**
+
+**BA in Business Administration**
+Hurst-White University
+*2017 - 2021*
+
+**BEng in Economics**
+Harrison Group University
+*2015 - 2018*
