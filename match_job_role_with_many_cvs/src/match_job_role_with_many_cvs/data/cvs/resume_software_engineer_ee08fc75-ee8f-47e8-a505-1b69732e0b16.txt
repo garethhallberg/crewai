@@ -1,0 +1,37 @@
+**Kyle Sanderson**
+5 Martin isle, Frankshire, NR9 4EW
+Email: kyle.sanderson79@email.com | Phone: +441214960699
+========================================
+
+**Summary**
+Results-driven Software Engineer seeking to leverage 10 years of expertise in PostgreSQL and cloud platforms like Problem Solving to build innovative applications.
+
+**Skills**
+CI/CD | PostgreSQL | Node.js
+Angular | Azure | MongoDB
+Agile Methodologies | Unit Testing | C#
+Kubernetes | Git | .NET
+Microservices | Problem Solving | Vue.js
+
+**Experience**
+
+**Junior Software Engineer** | Sykes-Kaur
+*Oct 2019 - Present*
+- Grow proactive networks
+- Deploy impactful web services
+- Maximize mission-critical e-markets. (improved performance by 30%)
+- Redefine back-end interfaces
+- Extend granular deliverables
+
+**Senior Software Engineer** | Mitchell, Clarke and Brennan
+*Mar 2015 - Sep 2019*
+- Target synergistic paradigms
+- Scale plug-and-play platforms
+- Architect out-of-the-box relationships
+- Embrace magnetic bandwidth
+
+**Education**
+
+**MSc in Software Engineering**
+Kirk and Sons University
+*2011 - 2015*

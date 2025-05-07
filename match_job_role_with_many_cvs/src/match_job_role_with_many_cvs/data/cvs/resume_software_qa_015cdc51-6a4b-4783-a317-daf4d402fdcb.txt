@@ -1,0 +1,30 @@
+**Terence Jones**
+Studio 00
+Joyce loaf, Jonesfort, BH22 0FW
+Email: terence.jones93@email.com | Phone: (0191) 496 0716
+========================================
+
+**Summary**
+Software QA Engineer with 3 years expertise in designing and executing test plans, developing automation frameworks (Exploratory Testing), and improving QA processes within Agile teams.
+
+**Skills**
+Performance Testing | Manual Testing | SQL
+API Testing | LoadRunner | Automated Testing
+JMeter | Exploratory Testing | Cypress
+Test Case Design
+
+**Experience**
+
+**QA Engineer** | Hill-Williams
+*May 2022 - Present*
+- Implement scalable info-mediaries
+- Engage ubiquitous content
+- Innovate front-end methodologies. (reduced costs by 8%)
+- Drive next-generation e-markets
+- Seize one-to-one portals
+
+**Education**
+
+**MSc in Software Engineering**
+Barber, Barrett and Walker University
+*2019 - 2023*

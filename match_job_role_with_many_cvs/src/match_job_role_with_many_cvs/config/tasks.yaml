@@ -1,0 +1,35 @@
+read_cv_task:
+  description: >
+    Extract relevant information from both CVs. Focus on skills, experience,
+    education, and key achievements.
+    Ensure to capture each candidate's professional summary, technical skills,
+    work history, and educational background.
+
+    First CV file: {path_to_cv}
+    Second CV file: {path_to_cv2}
+  expected_output: >
+    A structured summary of both CVs, including for each:
+    - Professional Summary
+    - Technical Skills
+    - Work History
+    - Education
+    - Key Achievements
+
+match_cv_task:
+  description: >
+    Match both CVs to the job opportunities based on skills, experience, and key
+    achievements.
+    Evaluate how well each candidate's profile fits each job description,
+    focusing on the alignment of skills, work history, and key achievements
+    with the job requirements.
+
+    Jobs CSV file: {path_to_jobs_csv}
+    First CV file: {path_to_cv}
+    Second CV file: {path_to_cv2}
+  expected_output: >
+    A ranked list of job opportunities for each candidate, including:
+    - Candidate name
+    - Job Title
+    - Match Score (based on skills and experience)
+    - Key Matching Points
+  output_file: output/decision.md

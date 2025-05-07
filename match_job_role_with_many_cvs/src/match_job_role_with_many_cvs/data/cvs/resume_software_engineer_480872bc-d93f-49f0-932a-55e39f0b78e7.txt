@@ -1,0 +1,33 @@
+**Melanie Vaughan**
+214 Wilson common, Glennmouth, N1 2QY
+Email: melanie.vaughan20@email.com | Phone: +44(0)1614960486
+========================================
+
+**Summary**
+Highly motivated Software Engineer with 3 years of experience in developing, testing, and deploying scalable software solutions. Proficient in SQL and GCP.
+
+**Skills**
+MySQL | Java | Docker
+Unit Testing | Agile Methodologies | Teamwork
+Node.js | Microservices | AWS
+C# | Kubernetes | Vue.js
+React | Git | Azure
+
+**Experience**
+
+**Junior Software Engineer** | Craig and Sons
+*May 2022 - Present*
+- Incentivize customized networks
+- Architect b2b schemas. (improved performance by 24%)
+- Deliver b2b niches
+- Incentivize holistic infrastructures
+
+**Education**
+
+**BSc in Physics**
+Dobson, Saunders and Cook University
+*2016 - 2020*
+
+**MSc in Computer Science**
+Shepherd LLC University
+*2012 - 2016*

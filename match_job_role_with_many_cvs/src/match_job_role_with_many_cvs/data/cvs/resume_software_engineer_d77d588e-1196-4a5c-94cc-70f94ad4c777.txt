@@ -1,0 +1,30 @@
+**Kathleen Dixon**
+3 Mills glens, Baxterstad, SO88 7JW
+Email: kathleen.dixon68@email.com | Phone: +44(0)292018588
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 7 years of experience in full-stack development using Azure, TypeScript, and Git.
+
+**Skills**
+Vue.js | SQL | GCP
+.NET | Java | MySQL
+Azure | TypeScript
+
+**Experience**
+
+**Junior Software Engineer** | Jackson LLC
+*May 2018 - Present*
+- Empower value-added functionalities. (reduced costs by 27%)
+- Visualize collaborative roi
+- Orchestrate b2b metrics
+
+**Education**
+
+**BA in Physics**
+Oliver-Stone University
+*2016 - 2020*
+
+**BEng in Software Engineering**
+Cooper Inc University
+*2012 - 2015*

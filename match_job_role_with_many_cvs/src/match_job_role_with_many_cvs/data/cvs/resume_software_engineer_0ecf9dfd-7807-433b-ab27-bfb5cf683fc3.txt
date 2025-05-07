@@ -1,0 +1,31 @@
+**Lewis Daly**
+9 Brett tunnel, Buckleymouth, S92 8NS
+Email: lewis.daly34@email.com | Phone: +44(0)191 4960638
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 4 years of experience in full-stack development using TypeScript, MongoDB, and Azure.
+
+**Skills**
+Microservices | Unit Testing | Node.js
+REST APIs | React | C#
+Docker | MySQL | GCP
+Teamwork | CI/CD
+
+**Experience**
+
+**Software Engineer** | Fowler, Simpson and Morris
+*May 2021 - Present*
+- Maximize back-end paradigms
+- Incentivize sticky channels
+- Repurpose interactive technologies. (reduced costs by 23%)
+
+**Education**
+
+**BA in Computer Science**
+Lawson, Davidson and Dale University
+*2016 - 2020*
+
+**BEng in Physics**
+Pearce-Turner University
+*2012 - 2015*

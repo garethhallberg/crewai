@@ -1,0 +1,40 @@
+**Bernard Young**
+Studio 3
+Cook street, Lake Abigailshire, E35 2JS
+Email: bernard.young13@email.com | Phone: +44114 4960290
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 2 years of experience in full-stack development using CI/CD, .NET, and GCP.
+
+**Skills**
+Docker | GCP | AWS
+Agile Methodologies | REST APIs | PostgreSQL
+Microservices | Node.js | MySQL
+MongoDB | C# | Unit Testing
+SQL
+
+**Experience**
+
+**Software Engineer** | Murray Ltd
+*Dec 2023 - Present*
+- Disintermediate enterprise systems
+- Enable seamless action-items
+- Morph compelling bandwidth
+
+**Software Engineer** | Campbell, West and Perkins
+*May 2023 - Dec 2023*
+- Orchestrate viral info-mediaries
+- Innovate cross-platform supply-chains. (increased user engagement by 31%)
+- E-enable web-enabled infrastructures
+- Implement real-time convergence. (completed project 16 weeks ahead of schedule)
+
+**Education**
+
+**MSc in Software Engineering**
+Clayton PLC University
+*2018 - 2021*
+
+**BA in Physics**
+Dixon and Sons University
+*2014 - 2018*

@@ -1,0 +1,41 @@
+**Julian Hunt**
+Studio 1
+Armstrong branch, New Valerie, NP53 9GR
+Email: julian.hunt94@email.com | Phone: (020) 74960907
+========================================
+
+**Summary**
+Highly motivated Software Engineer with 8 years of experience in developing, testing, and deploying scalable software solutions. Proficient in Node.js and Kubernetes.
+
+**Skills**
+Agile Methodologies | CI/CD | Microservices
+React | Node.js | Kubernetes
+Problem Solving | SQL | TypeScript
+PostgreSQL
+
+**Experience**
+
+**Software Engineer** | Burgess-Lee
+*Feb 2021 - Present*
+- Architect interactive models. (increased user engagement by 50%)
+- Monetize value-added niches
+- Strategize global e-services
+- Aggregate b2c mindshare
+- Reinvent back-end action-items
+- Embrace seamless info-mediaries. (improved performance by 36%)
+
+**Software Engineer** | James-Norris
+*Apr 2017 - Jan 2021*
+- Innovate user-centric platforms
+- Iterate sticky systems
+- E-enable visionary solutions
+
+**Education**
+
+**BEng in Business Administration**
+Jones-Clark University
+*2012 - 2016*
+
+**BSc in Economics**
+Lee LLC University
+*2008 - 2012*

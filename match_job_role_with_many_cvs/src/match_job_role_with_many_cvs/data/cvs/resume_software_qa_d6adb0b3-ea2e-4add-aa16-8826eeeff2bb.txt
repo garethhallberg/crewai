@@ -1,0 +1,29 @@
+**Patrick Moore**
+Flat 69J
+Sam way, South Frederick, L1T 5ZE
+Email: patrick.moore68@email.com | Phone: +44(0)1914960845
+========================================
+
+**Summary**
+Detail-oriented Software QA professional with 2 years of experience ensuring software quality through comprehensive Java (for scripting) and JIRA techniques.
+
+**Skills**
+LoadRunner | Playwright | Automated Testing
+Attention to Detail | Selenium | SQL
+Test Case Design | Bug Tracking | JMeter
+Java (for scripting) | Agile Methodologies | Python (for scripting)
+Regression Testing | Manual Testing | Performance Testing
+
+**Experience**
+
+**QA Engineer** | White, Ross and Green
+*May 2023 - Present*
+- Utilize scalable e-services
+- Orchestrate clicks-and-mortar roi
+- Monetize frictionless supply-chains
+
+**Education**
+
+**BEng in Business Administration**
+Simmons PLC University
+*2014 - 2018*

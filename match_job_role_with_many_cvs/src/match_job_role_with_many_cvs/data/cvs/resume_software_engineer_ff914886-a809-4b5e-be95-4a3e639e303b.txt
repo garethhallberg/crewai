@@ -1,0 +1,38 @@
+**Anna George**
+Studio 03
+Booth garden, Smithmouth, IP3 1SX
+Email: anna.george37@email.com | Phone: +441184960847
+========================================
+
+**Summary**
+Detail-oriented Software Engineer with a passion for clean code and 2 years of experience in full-stack development using Kubernetes, Docker, and Node.js.
+
+**Skills**
+Docker | Git | .NET
+MySQL | Node.js | REST APIs
+TypeScript | SQL | MongoDB
+Agile Methodologies | Microservices | GCP
+Java | JavaScript
+
+**Experience**
+
+**Junior Software Engineer** | Hutchinson and Sons
+*Dec 2023 - Present*
+- Innovate value-added vortals. (increased user engagement by 26%)
+- Grow back-end applications
+- Reinvent back-end initiatives
+- Incubate leading-edge channels. (increased user engagement by 16%)
+- Incentivize dot-com partnerships
+- Target collaborative deliverables
+
+**Software Engineer** | Allen, Heath and Gray
+*May 2023 - Nov 2023*
+- Productize dynamic info-mediaries
+- Redefine visionary paradigms
+- Mesh synergistic bandwidth
+
+**Education**
+
+**BEng in Information Technology**
+Pearson, Williams and Clarke University
+*2021 - 2024*
