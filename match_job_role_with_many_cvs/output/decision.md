@@ -1,73 +1,47 @@
-```
-Job Title: Software Engineer
-Top Candidate: Samuel McDonald
-Match Score: High
-Key Matching Points: 14 years of experience, strong skills in Azure DevOps and Scrum.
-Areas of Misalignment: None.
-Role-Specific Strengths: Rich experience in Agile methodologies.
-Experience Quality: Specific, directly relevant experience.
-Direct Experience: Yes
-Role Alignment: Strong fit due to background in agile environments.
-Scoring Justification: High due to direct roles and technical skills.
-Growth Potential: High.
+Job Title: Software Engineer 
+Top Candidate: Lewis Daly 
+- Match Score: High 
+- Key Matching Points: 4 years of experience in full-stack development, proficiency in TypeScript and MongoDB, experience in Agile teams. 
+- Areas of Misalignment: None
+- Role-Specific Strengths: Strong coding skills, agile methodologies knowledge, track record of delivering software projects efficiently. 
+- Experience Quality: Highly relevant to role, with strong technical background. 
+- Direct Experience: Yes 
+- Role Alignment: Lewis's experience closely matches the requirements of software development, particularly in technologies used by the company. 
+- Scoring Justification: Scored high due to direct experience and relevant technical skills. 
+- Growth Potential: High potential as he already stays updated with technology trends.
 
-Job Title: Software Architect
-Top Candidate: Norman Scott
-Match Score: High
-Key Matching Points: Experienced in Agile, skilled at design and development.
-Areas of Misalignment: None.
-Role-Specific Strengths: Problem-solving skills, architectural capabilities.
-Experience Quality: 12 years of practical experience.
-Direct Experience: Yes
-Role Alignment: Expertise in Agile aligns well.
-Scoring Justification: High due to relevant experience.
-Growth Potential: Certain.
+Job Title: Software Architect 
+Top Candidate: Linda Bradley 
+- Match Score: High 
+- Key Matching Points: 2 years of experience in systems architecture, strong skills in cloud architecture, API design, and scalability. 
+- Areas of Misalignment: Limited direct experience as a Software Architect but relevant skills. 
+- Role-Specific Strengths: Strong ability to design scalable systems, expertise in cloud platforms is crucial for the company. 
+- Experience Quality: Applies well to the software architect role with a clear emphasis on system design. 
+- Direct Experience: No 
+- Role Alignment: Linda's experience in scalable system design makes her a strong candidate despite lack of a formal title. 
+- Scoring Justification: Rated high due to her relevant background and potential to contribute to architecture teams. 
+- Growth Potential: Strong potential as she can adapt from technical lead to architect.
 
-Job Title: Project Manager
-Top Candidate: Carly Iqbal
-Match Score: High
-Key Matching Points: Strong leadership and communication experience.
-Areas of Misalignment: None.
-Role-Specific Strengths: Extensive project management experience.
-Experience Quality: Proven track record.
-Direct Experience: Yes
-Role Alignment: Excellent alignment with project outcomes.
-Scoring Justification: High score; direct management and leadership experiences.
-Growth Potential: High.
+Job Title: QA Engineer 
+Top Candidate: Gemma Hutchinson 
+- Match Score: High 
+- Key Matching Points: 2 years of experience in QA, expertise in automation testing with tools like JMeter and Selenium, background in Agile teams. 
+- Areas of Misalignment: None 
+- Role-Specific Strengths: Strong automation skills, experience in manual testing, and process improvement in QA processes. 
+- Experience Quality: Highly relevant to quality assurance roles within software development cycles. 
+- Direct Experience: Yes 
+- Role Alignment: Gemma's skills in automation testing and QA strategies align greatly with the job requirements. 
+- Scoring Justification: Received a high score for relevant specialized skills and experience. 
+- Growth Potential: High potential for further development in QA methodologies and tools.
 
-Job Title: DevOps Engineer
-Top Candidate: Daniel Singh
-Match Score: High
-Key Matching Points: 15 years, strong focus on automation.
-Areas of Misalignment: Slightly broader focus beyond DevOps.
-Role-Specific Strengths: Experience with DevOps principles.
-Experience Quality: Significant with outcomes evident.
-Direct Experience: Yes
-Role Alignment: Excellent alignment with DevOps practices.
-Scoring Justification: High score for collaboration and efficiency.
-Growth Potential: Highly likely.
-
-Job Title: QA Engineer
-Top Candidate: Bethany Sanderson
-Match Score: High
-Key Matching Points: 12 years in QA roles.
-Areas of Misalignment: None.
-Role-Specific Strengths: Strong analytical skills in QA processes.
-Experience Quality: Well-defined with measurable impacts.
-Direct Experience: Yes
-Role Alignment: Great alignment with expectations.
-Scoring Justification: High for direct QA roles.
-Growth Potential: High potential for lead roles.
-
-Job Title: Business Analyst
-Top Candidate: Kimberley Sanders
-Match Score: High
-Key Matching Points: Solid experience in requirements analysis.
-Areas of Misalignment: None.
-Role-Specific Strengths: Expertise in actionable user stories.
-Experience Quality: Strong with project impacts.
-Direct Experience: Yes
-Role Alignment: Direct correlation to Analyst role.
-Scoring Justification: High due to specific roles.
-Growth Potential: Significant.
-```
+Job Title: Business Analyst 
+Top Candidate: Kimberley Sanders 
+- Match Score: High 
+- Key Matching Points: 9 years of experience in business analysis, strong skills in requirements gathering, process modeling, and stakeholder management. 
+- Areas of Misalignment: None 
+- Role-Specific Strengths: Extensive experience in turning user requirements into actionable deliverables; strong analytical skills. 
+- Experience Quality: Highly relevant with a significant focus on process improvement and stakeholder engagement. 
+- Direct Experience: Yes 
+- Role Alignment: Kimberley's background in analysis and remarkable achievements in previous roles align perfectly with business analyst needs. 
+- Scoring Justification: Scored high for her extensive experience and record of improving processes effectively. 
+- Growth Potential: Strong potential for growth into strategic business roles within the organization.

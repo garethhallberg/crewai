@@ -1,6 +1,6 @@
 from typing import Type
 from pydantic import BaseModel
-from crewai_tools import FileReadTool
+from crewai.tools import BaseTool
 from PyPDF2 import PdfReader
 import logging
 
@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class CVReaderToolInput(BaseModel):
     file_path: str
 
-class CVReaderTool(FileReadTool):
+class CVReaderTool(BaseTool):
     name: str = "CV Reader Tool"
     description: str = (
         "A tool for reading both TXT and PDF CV files. "
@@ -18,7 +18,7 @@ class CVReaderTool(FileReadTool):
     )
     args_schema: Type[BaseModel] = CVReaderToolInput
 
-    def _run(self, file_path: str, **kwargs) -> str:
+    def _run(self, file_path: str) -> str:
         try:
             if file_path.endswith('.pdf'):
                 with open(file_path, 'rb') as pdf_file:
@@ -31,8 +31,9 @@ class CVReaderTool(FileReadTool):
                         text += page.extract_text() + "\n"
                     return text
             else:
-                # Use the parent class's _run method for txt files
-                return super()._run(file_path, **kwargs)
+                # Read text file
+                with open(file_path, 'r') as txt_file:
+                    return txt_file.read()
         except Exception as e:
             logger.error(f"Error reading file {file_path}: {str(e)}")
             return f"Error reading file {file_path}: {str(e)}" 
