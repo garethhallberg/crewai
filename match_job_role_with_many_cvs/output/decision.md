@@ -1,17 +1,47 @@
 Job Title: Software Engineer 
-Top Candidate: Lewis Daly - Match Score: High - Key Matching Points: Proficient in TypeScript, Agile methodologies, and software development processes; achieved cost reduction of 23%. - Areas of Misalignment: None significant. - Role-Specific Strengths: 4 years of hands-on coding experience; experience with REST APIs. - Experience Quality: Direct experience with impactful, quantifiable results. - Direct Experience: Yes - Role Alignment: Lewis has direct and relevant experience in developing software, which aligns with the focus of the Software Engineer role. - Scoring Justification: Lewis scored high based on direct experience, technical skills, and quantifiable achievements in the field.
+Top Candidate: Lewis Daly 
+- Match Score: High 
+- Key Matching Points: 4 years of experience in full-stack development, proficiency in TypeScript and MongoDB, experience in Agile teams. 
+- Areas of Misalignment: None
+- Role-Specific Strengths: Strong coding skills, agile methodologies knowledge, track record of delivering software projects efficiently. 
+- Experience Quality: Highly relevant to role, with strong technical background. 
+- Direct Experience: Yes 
+- Role Alignment: Lewis's experience closely matches the requirements of software development, particularly in technologies used by the company. 
+- Scoring Justification: Scored high due to direct experience and relevant technical skills. 
+- Growth Potential: High potential as he already stays updated with technology trends.
 
 Job Title: Software Architect 
-Top Candidate: Katherine Simon - Match Score: High - Key Matching Points: 12 years in software architecture, API Design, and solution architecture; experience in technical leadership. - Areas of Misalignment: None significant. - Role-Specific Strengths: Extensive direct experience in system architecture and design. - Experience Quality: Specific and relevant to the role requirements. - Direct Experience: Yes - Role Alignment: Katherine’s experience with architecture aligns perfectly with the Software Architect responsibilities. - Scoring Justification: High score for direct experience and relevant achievements in architectural roles.
-
-Job Title: Project Manager 
-Top Candidate: Thomas Green - Match Score: High - Key Matching Points: 13 years in Agile delivery; experience in Scrum and stakeholder management; proven ability to optimize delivery flow. - Areas of Misalignment: None significant. - Role-Specific Strengths: Strong leadership and team management skills. - Experience Quality: Specific and quantifiable results in project delivery. - Direct Experience: Yes - Role Alignment: Thomas's extensive project management background aligns with the Project Manager focus. - Scoring Justification: High score due to leadership experience and a track record of successful project deliverables.
-
-Job Title: DevOps Engineer 
-Top Candidate: None - Match Score: None - Key Matching Points: None found. - Areas of Misalignment: No candidates matched the DevOps Engineering experience requirements. - Role-Specific Strengths: None identified. - Experience Quality: Not applicable - Direct Experience: No - Role Alignment: No candidates demonstrated the necessary DevOps experience required for the role. - Scoring Justification: No applicable candidates for this position, leading to a low (N/A) score.
+Top Candidate: Linda Bradley 
+- Match Score: High 
+- Key Matching Points: 2 years of experience in systems architecture, strong skills in cloud architecture, API design, and scalability. 
+- Areas of Misalignment: Limited direct experience as a Software Architect but relevant skills. 
+- Role-Specific Strengths: Strong ability to design scalable systems, expertise in cloud platforms is crucial for the company. 
+- Experience Quality: Applies well to the software architect role with a clear emphasis on system design. 
+- Direct Experience: No 
+- Role Alignment: Linda's experience in scalable system design makes her a strong candidate despite lack of a formal title. 
+- Scoring Justification: Rated high due to her relevant background and potential to contribute to architecture teams. 
+- Growth Potential: Strong potential as she can adapt from technical lead to architect.
 
 Job Title: QA Engineer 
-Top Candidate: Gemma Hutchinson - Match Score: High - Key Matching Points: 5 years in QA; expertise in automation frameworks, JIRA; proven ability to improve QA processes. - Areas of Misalignment: None significant. - Role-Specific Strengths: Direct experience with QA methodologies and tools. - Experience Quality: Specific achievements in enhancing QA outputs. - Direct Experience: Yes - Role Alignment: Gemma’s experience directly aligns with the QA Engineer position's requirements. - Scoring Justification: High score based on robust testing experience and relevant QA results.
+Top Candidate: Gemma Hutchinson 
+- Match Score: High 
+- Key Matching Points: 2 years of experience in QA, expertise in automation testing with tools like JMeter and Selenium, background in Agile teams. 
+- Areas of Misalignment: None 
+- Role-Specific Strengths: Strong automation skills, experience in manual testing, and process improvement in QA processes. 
+- Experience Quality: Highly relevant to quality assurance roles within software development cycles. 
+- Direct Experience: Yes 
+- Role Alignment: Gemma's skills in automation testing and QA strategies align greatly with the job requirements. 
+- Scoring Justification: Received a high score for relevant specialized skills and experience. 
+- Growth Potential: High potential for further development in QA methodologies and tools.
 
 Job Title: Business Analyst 
-Top Candidate: None - Match Score: None - Key Matching Points: None found. - Areas of Misalignment: No relevant candidates found. - Role-Specific Strengths: None identified. - Experience Quality: Not applicable - Direct Experience: No - Role Alignment: No candidates displayed the requisite experience for Business Analyst roles. - Scoring Justification: No applicable candidates for this position leading to a low (N/A) score.
+Top Candidate: Kimberley Sanders 
+- Match Score: High 
+- Key Matching Points: 9 years of experience in business analysis, strong skills in requirements gathering, process modeling, and stakeholder management. 
+- Areas of Misalignment: None 
+- Role-Specific Strengths: Extensive experience in turning user requirements into actionable deliverables; strong analytical skills. 
+- Experience Quality: Highly relevant with a significant focus on process improvement and stakeholder engagement. 
+- Direct Experience: Yes 
+- Role Alignment: Kimberley's background in analysis and remarkable achievements in previous roles align perfectly with business analyst needs. 
+- Scoring Justification: Scored high for her extensive experience and record of improving processes effectively. 
+- Growth Potential: Strong potential for growth into strategic business roles within the organization.
