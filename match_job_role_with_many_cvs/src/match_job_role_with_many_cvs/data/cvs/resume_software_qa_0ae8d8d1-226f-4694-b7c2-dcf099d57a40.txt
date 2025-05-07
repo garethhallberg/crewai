@@ -1,0 +1,41 @@
+**Gemma Hutchinson**
+Studio 0
+Todd burgs, West Geraldburgh, PO7 3WS
+Email: gemma.hutchinson16@email.com | Phone: +441314960002
+========================================
+
+**Summary**
+Software QA Engineer with 2 years expertise in designing and executing test plans, developing automation frameworks (JMeter), and improving QA processes within Agile teams.
+
+**Skills**
+Manual Testing | Cypress | API Testing
+LoadRunner | Automated Testing | Exploratory Testing
+JIRA | Bug Tracking | Python (for scripting)
+Regression Testing | Selenium | Java (for scripting)
+Performance Testing | Test Case Design | Test Planning
+
+**Experience**
+
+**Senior QA Engineer** | Pearce-Cooper
+*Nov 2023 - Present*
+- Matrix proactive technologies
+- Integrate revolutionary channels. (increased user engagement by 48%)
+- Engineer user-centric models. (improved performance by 34%)
+- Revolutionize extensible systems
+- Re-intermediate next-generation functionalities
+
+**Test Lead** | Rose LLC
+*Mar 2023 - Oct 2023*
+- Strategize viral mindshare
+- Repurpose one-to-one info-mediaries
+- Envisioneer web-enabled mindshare
+
+**Education**
+
+**BSc in Information Technology**
+Birch Group University
+*2015 - 2019*
+
+**MSc in Computer Science**
+Potter-Harvey University
+*2011 - 2015*

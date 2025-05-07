@@ -1,0 +1,33 @@
+**Emily Bevan**
+45 Eileen motorway, Wallacebury, LN56 2PD
+Email: emily.bevan73@email.com | Phone: +44191 496 0350
+========================================
+
+**Summary**
+Dedicated Software QA Analyst with 5 years experience in JIRA, Python (for scripting), and API testing using Automated Testing. Proven ability to identify critical defects and ensure product stability.
+
+**Skills**
+Selenium | Postman | Regression Testing
+Exploratory Testing | JIRA | Python (for scripting)
+LoadRunner | Automated Testing | API Testing
+JMeter | Performance Testing | Manual Testing
+Attention to Detail
+
+**Experience**
+
+**Test Lead** | Henderson PLC
+*May 2020 - Present*
+- Matrix robust e-markets
+- Incubate cross-platform portals
+- Unleash visionary e-business
+- Seize dynamic e-business
+
+**Education**
+
+**BEng in Information Technology**
+Howarth PLC University
+*2018 - 2022*
+
+**MSc in Software Engineering**
+Moore Ltd University
+*2016 - 2019*

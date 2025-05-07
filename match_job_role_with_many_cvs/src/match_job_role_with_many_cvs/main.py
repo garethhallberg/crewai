@@ -14,28 +14,35 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
 
+def get_cv_files(cv_dir):
+    """
+    Get all .txt files from the CV directory.
+    Returns a list of full paths to the CV files.
+    """
+    cv_files = []
+    for file in os.listdir(cv_dir):
+        if file.endswith('.txt'):
+            cv_files.append(os.path.join(cv_dir, file))
+    return sorted(cv_files)  # Sort to ensure consistent order
+
 def run():
     """
     Run the crew to match CVs against job roles.
     """
     cv_dir = './src/match_job_role_with_many_cvs/data/cvs'
     
-    # Get list of CV files from the directory
-    cv_files = [f for f in os.listdir(cv_dir) if f.endswith('.txt')]
+    # Get all CV files from the directory
+    cv_files = get_cv_files(cv_dir)
     
-    if len(cv_files) < 3:
-        raise Exception("At least three CV files are required in the cvs directory")
+    if len(cv_files) < 2:
+        raise Exception("At least two CV files are required in the cvs directory")
     
-    # Get the first three CV files
-    cv1 = os.path.join(cv_dir, cv_files[0])
-    cv2 = os.path.join(cv_dir, cv_files[1])
-    cv3 = os.path.join(cv_dir, cv_files[2])
+    # Create a string with all CV file paths
+    cv_files_str = "\n".join([f"CV file: {cv_file}" for cv_file in cv_files])
     
     inputs = {
         'path_to_jobs_csv': './src/match_job_role_with_many_cvs/data/jobs.csv',
-        'path_to_cv': cv1,
-        'path_to_cv2': cv2,
-        'path_to_cv3': cv3
+        'cv_files': cv_files_str
     }
     
     try:
