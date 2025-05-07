@@ -1,14 +1,15 @@
 read_cv_task:
   description: >
-    Extract relevant information from both CVs. Focus on skills, experience,
+    Extract relevant information from all three CVs. Focus on skills, experience,
     education, and key achievements.
     Ensure to capture each candidate's professional summary, technical skills,
     work history, and educational background.
 
     First CV file: {path_to_cv}
     Second CV file: {path_to_cv2}
+    Third CV file: {path_to_cv3}
   expected_output: >
-    A structured summary of both CVs, including for each:
+    A structured summary of all three CVs, including for each:
     - Professional Summary
     - Technical Skills
     - Work History
@@ -17,19 +18,41 @@ read_cv_task:
 
 match_cv_task:
   description: >
-    Match both CVs to the job opportunities based on skills, experience, and key
-    achievements.
-    Evaluate how well each candidate's profile fits each job description,
-    focusing on the alignment of skills, work history, and key achievements
-    with the job requirements.
+    IMPORTANT: You must analyze ALL jobs from the jobs.csv file and for EACH job,
+    identify and rank the top two most suitable candidates from the three CVs.
+    
+    The output MUST be organized by job, with each job showing its top two candidates
+    in order of suitability. You must include ALL jobs from the jobs.csv file.
+    
+    For each job-candidate match, evaluate based on:
+    - Skills alignment
+    - Experience relevance
+    - Key achievements
+    - Overall fit for the role
 
     Jobs CSV file: {path_to_jobs_csv}
     First CV file: {path_to_cv}
     Second CV file: {path_to_cv2}
+    Third CV file: {path_to_cv3}
   expected_output: >
-    A ranked list of job opportunities for each candidate, including:
-    - Candidate name
-    - Job Title
-    - Match Score (based on skills and experience)
-    - Key Matching Points
+    REQUIRED OUTPUT FORMAT:
+    
+    Job Title: [Job Name]
+    1. [Top Candidate Name]
+       - Match Score: [High/Medium/Low]
+       - Key Matching Points: [List of relevant skills and experience]
+       - Areas of Misalignment: [If any]
+    
+    2. [Second Best Candidate Name]
+       - Match Score: [High/Medium/Low]
+       - Key Matching Points: [List of relevant skills and experience]
+       - Areas of Misalignment: [If any]
+    
+    [REPEAT THIS FORMAT FOR EVERY JOB IN THE JOBS.CSV FILE]
+    
+    IMPORTANT:
+    - You must include ALL jobs from the jobs.csv file
+    - For each job, show exactly two candidates, ranked by suitability
+    - The output must be organized by job, not by candidate
+    - Do not skip any jobs from the jobs.csv file
   output_file: output/decision.md
