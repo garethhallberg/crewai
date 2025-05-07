@@ -37,20 +37,12 @@ def run():
     if len(cv_files) < 2:
         raise Exception("At least two CV files are required in the cvs directory")
     
-    # For now, we'll still use just the first three CVs to maintain compatibility
-    # with the current task configuration
-    cv1 = cv_files[0]
-    cv2 = cv_files[1]
-    cv3 = cv_files[2] if len(cv_files) > 2 else None
-    
-    if not cv3:
-        raise Exception("Three CV files are required in the cvs directory")
+    # Create a string with all CV file paths
+    cv_files_str = "\n".join([f"CV file: {cv_file}" for cv_file in cv_files])
     
     inputs = {
         'path_to_jobs_csv': './src/match_job_role_with_many_cvs/data/jobs.csv',
-        'path_to_cv': cv1,
-        'path_to_cv2': cv2,
-        'path_to_cv3': cv3
+        'cv_files': cv_files_str
     }
     
     try:

@@ -1,56 +1,17 @@
-```
-Job Title: Software Engineer
-1. Jessica Watts
-   - Match Score: High
-   - Key Matching Points: Extensive experience in software architecture, skills in Cloud Architecture, track record of engagement and cost reduction.
-   - Areas of Misalignment: None notable.
+Job Title: Software Engineer 
+Top Candidate: Lewis Daly - Match Score: High - Key Matching Points: Proficient in TypeScript, Agile methodologies, and software development processes; achieved cost reduction of 23%. - Areas of Misalignment: None significant. - Role-Specific Strengths: 4 years of hands-on coding experience; experience with REST APIs. - Experience Quality: Direct experience with impactful, quantifiable results. - Direct Experience: Yes - Role Alignment: Lewis has direct and relevant experience in developing software, which aligns with the focus of the Software Engineer role. - Scoring Justification: Lewis scored high based on direct experience, technical skills, and quantifiable achievements in the field.
 
-2. Samuel McDonald
-   - Match Score: Medium
-   - Key Matching Points: Background in Agile methodologies and team leadership.
-   - Areas of Misalignment: Requires a stronger technical focus.
+Job Title: Software Architect 
+Top Candidate: Katherine Simon - Match Score: High - Key Matching Points: 12 years in software architecture, API Design, and solution architecture; experience in technical leadership. - Areas of Misalignment: None significant. - Role-Specific Strengths: Extensive direct experience in system architecture and design. - Experience Quality: Specific and relevant to the role requirements. - Direct Experience: Yes - Role Alignment: Katherine’s experience with architecture aligns perfectly with the Software Architect responsibilities. - Scoring Justification: High score for direct experience and relevant achievements in architectural roles.
 
-Job Title: Data Scientist
-1. Jessica Watts
-   - Match Score: Medium
-   - Key Matching Points: Experience with software architecture and some data handling technical skills.
-   - Areas of Misalignment: Limited specific data science experience.
+Job Title: Project Manager 
+Top Candidate: Thomas Green - Match Score: High - Key Matching Points: 13 years in Agile delivery; experience in Scrum and stakeholder management; proven ability to optimize delivery flow. - Areas of Misalignment: None significant. - Role-Specific Strengths: Strong leadership and team management skills. - Experience Quality: Specific and quantifiable results in project delivery. - Direct Experience: Yes - Role Alignment: Thomas's extensive project management background aligns with the Project Manager focus. - Scoring Justification: High score due to leadership experience and a track record of successful project deliverables.
 
-2. Albert Smith
-   - Match Score: Medium
-   - Key Matching Points: Data analysis, requirements gathering, and good communication skills.
-   - Areas of Misalignment: Lacks a deeper technical background.
+Job Title: DevOps Engineer 
+Top Candidate: None - Match Score: None - Key Matching Points: None found. - Areas of Misalignment: No candidates matched the DevOps Engineering experience requirements. - Role-Specific Strengths: None identified. - Experience Quality: Not applicable - Direct Experience: No - Role Alignment: No candidates demonstrated the necessary DevOps experience required for the role. - Scoring Justification: No applicable candidates for this position, leading to a low (N/A) score.
 
-Job Title: Project Manager
-1. Samuel McDonald
-   - Match Score: High
-   - Key Matching Points: Strong background in Agile project management and successful delivery of cross-functional teams.
-   - Areas of Misalignment: None; highly suitable.
+Job Title: QA Engineer 
+Top Candidate: Gemma Hutchinson - Match Score: High - Key Matching Points: 5 years in QA; expertise in automation frameworks, JIRA; proven ability to improve QA processes. - Areas of Misalignment: None significant. - Role-Specific Strengths: Direct experience with QA methodologies and tools. - Experience Quality: Specific achievements in enhancing QA outputs. - Direct Experience: Yes - Role Alignment: Gemma’s experience directly aligns with the QA Engineer position's requirements. - Scoring Justification: High score based on robust testing experience and relevant QA results.
 
-2. Albert Smith
-   - Match Score: Medium
-   - Key Matching Points: Project experience, stakeholder management capabilities.
-   - Areas of Misalignment: More junior than Samuel.
-
-Job Title: DevOps Engineer
-1. Jessica Watts
-   - Match Score: High
-   - Key Matching Points: Proficient in CI/CD processes and cloud management, experienced leader.
-   - Areas of Misalignment: None; very relevant background.
-
-2. Samuel McDonald
-   - Match Score: Medium
-   - Key Matching Points: Familiar with Agile environments.
-   - Areas of Misalignment: Limited direct DevOps experience.
-
-Job Title: Marketing Specialist
-1. Albert Smith
-   - Match Score: Medium
-   - Key Matching Points: Experience in user engagement and partnership creation.
-   - Areas of Misalignment: Limited direct marketing experience.
-
-2. Samuel McDonald
-   - Match Score: Low
-   - Key Matching Points: None directly applicable.
-   - Areas of Misalignment: Stronger background in project management, not marketing.
-```
+Job Title: Business Analyst 
+Top Candidate: None - Match Score: None - Key Matching Points: None found. - Areas of Misalignment: No relevant candidates found. - Role-Specific Strengths: None identified. - Experience Quality: Not applicable - Direct Experience: No - Role Alignment: No candidates displayed the requisite experience for Business Analyst roles. - Scoring Justification: No applicable candidates for this position leading to a low (N/A) score.
